@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="店家搜尋" />
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_sort_black_24dp"
+            android:title="菜單搜尋" />
+        <item
+            android:id="@+id/nav_rank"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="美食排行"/>
+        <item
+            android:id="@+id/nav_random"
+            android:icon="@drawable/ic_shuffle_black_24dp"
+            android:title="翻牌"/>
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:title="購物車" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="訂單歷史紀錄" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_open_in_new_black_24dp"
+            android:title="登出" />
+    </group>
+
+</menu>

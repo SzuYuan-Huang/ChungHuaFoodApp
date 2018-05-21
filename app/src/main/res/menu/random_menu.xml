@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/noodle"
+        android:title="麵類"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/porridge"
+        android:title="粥類"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/rice"
+        android:title="飯類"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/coverRice"
+        android:title="蓋飯類"
+        app:showAsAction="always"/>
+
+</menu>

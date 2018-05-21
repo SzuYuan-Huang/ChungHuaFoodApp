@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maintheme"
+    tools:context="project.newstylefood.SignIn">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:hint="信箱"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:textSize="34sp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:hint="密碼"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:textSize="34sp"
+            android:inputType="textPassword"/>
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:text="登入"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/btnSignActive"
+        android:shadowColor="@android:color/black" />
+
+</RelativeLayout>

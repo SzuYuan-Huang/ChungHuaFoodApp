@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="請評價這道菜"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="請評價星星數以及一些回饋"
+        android:gravity="center"/>
+
+    <RatingBar
+        android:id="@+id/userStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="1"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/userComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="評論請填這..."/>
+
+    <Button
+        android:id="@+id/userSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/userCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textSize="16dp"/>
+
+
+</LinearLayout>
